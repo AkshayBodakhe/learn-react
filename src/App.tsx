@@ -9,6 +9,7 @@ import Hooks from './hooks/Hooks';
 import UseReducer from './hooks/UseReducer';
 import ForwardRefEx from './components/ForwardRef';
 import Counter from './components/Counter';
+import UserList from './components/UserList';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <Counter />
+      {/* <Counter />
+      <hr style={{ margin: '20px 0' }} /> */}
+      <UserList />
       {/* <ThemedButton /> */}
       {/* <Toolbar /> */}
       {/* <Appp/> */}
