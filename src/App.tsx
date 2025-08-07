@@ -8,6 +8,7 @@ import Routing from './components/Routing';
 import Hooks from './hooks/Hooks';
 import UseReducer from './hooks/UseReducer';
 import ForwardRefEx from './components/ForwardRef';
+import Counter from './components/Counter';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
+      <Counter />
+      {/* <ThemedButton /> */}
       {/* <Toolbar /> */}
       {/* <Appp/> */}
       {/* <Routing/> */}
